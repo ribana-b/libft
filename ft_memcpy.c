@@ -6,7 +6,7 @@
 /*   By: ribana-b <ribana-b@42student.malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/19 07:17:11 by ribana-b          #+#    #+#             */
-/*   Updated: 2023/05/06 14:25:07 by ribana-b         ###   ########.fr       */
+/*   Updated: 2023/05/10 15:58:06 by ribana-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,9 @@ void	*ft_memcpy(void *dest, const void *src, size_t bytes)
 
 	cont = 0;
 	if (!(char *)dest && !(char *)src)
+	{
 		return (dest);
+	}
 	while (bytes--)
 	{
 		*(char *)(dest + cont) = *(char *)(src + cont);
