@@ -6,7 +6,7 @@
 /*   By: ribana-b <ribana-b@42student.malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/26 13:30:53 by ribana-b          #+#    #+#             */
-/*   Updated: 2023/05/06 12:23:00 by ribana-b         ###   ########.fr       */
+/*   Updated: 2023/05/10 16:10:04 by ribana-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,9 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t bytes)
 
 	cont = 0;
 	if (bytes == 0)
+	{
 		return (ft_strlen(src));
+	}
 	while (cont < bytes - 1 && *(src + cont) != '\0')
 	{
 		*(dest + cont) = *(src + cont);
