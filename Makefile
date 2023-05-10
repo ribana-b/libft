@@ -21,8 +21,6 @@ FILES = $(P)isalpha.c \
 		$(P)memmove.c \
 		$(P)strlcpy.c \
 		$(P)strlcat.c \
-		$(P)toupper.c \
-		$(P)tolower.c \
 		$(P)strchr.c \
 		$(P)strrchr.c \
 		$(P)toupper.c \
