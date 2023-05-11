@@ -128,4 +128,4 @@ My libft contains the following functions:
 
 ## Progress
 
-If you want to check my progress as a student in 42 Málaga checkout my <a href = "https://github.com/SrRecursive/42Malaga">main repository</a>!
+If you want to check my progress as a student in 42 Málaga check out my <a href = "https://github.com/SrRecursive/42Malaga">main repository</a>!
