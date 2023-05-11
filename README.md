@@ -77,7 +77,7 @@ My libft contains the following functions:
     <td align = "center" style = "width = 50%;"><a href = "ft_striteri.c">ft_striteri</a></td>
   </tr>
   <tr>
-    <td align = "center" style = "width = 50%;"><a href = "ft_strjoin.c">strjoin</a></td>
+    <td align = "center" style = "width = 50%;"><a href = "ft_strjoin.c">ft_strjoin</a></td>
     <td align = "center" style = "width = 50%;"><a href = "ft_putchar_fd.c">ft_putchar_fd</a></td>
   </tr>
   <tr>
