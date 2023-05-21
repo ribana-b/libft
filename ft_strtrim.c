@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ribana-b <ribana-b@42student.malaga.com    +#+  +:+       +#+        */
+/*   By: ribana-b < ribana-b@student.42malaga.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/06 01:47:04 by ribana-b          #+#    #+#             */
-/*   Updated: 2023/05/08 03:17:06 by ribana-b         ###   ########.fr       */
+/*   Updated: 2023/05/21 15:12:45 by ribana-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ char	*ft_strtrim(const char *s1, const char *set)
 	size_t	start;
 	size_t	end;
 
-	if (!s1 ||!set)
+	if (!s1 || !set)
 	{
 		return (0);
 	}	
