@@ -104,23 +104,23 @@ My libft contains the following functions:
     <th colspan = "2">Bonus part</th>
   </tr>
   <tr>
-    <td align = "center"><a href = "ft_lstnew.c">ft_lstnew</a></td>
-    <td align = "center"><a href = "ft_lstdelone.c">ft_lstdelone</a></td>
+    <td align = "center"><a href = "ft_lstnew_bonus_bonus.c">ft_lstnew_bonus</a></td>
+    <td align = "center"><a href = "ft_lstdelone_bonus.c">ft_lstdelone_bonus</a></td>
   </tr>
   <tr>
-    <td align = "center"><a href = "ft_lstadd_front.c">ft_lstadd_front</a></td>
-    <td align = "center"><a href = "ft_lstclear.c">ft_lstclear</a></td>
+    <td align = "center"><a href = "ft_lstadd_front_bonus.c">ft_lstadd_front_bonus</a></td>
+    <td align = "center"><a href = "ft_lstclear_bonus.c">ft_lstclear_bonus</a></td>
   </tr>
   <tr>
-    <td align = "center"><a href = "ft_lstsize.c">ft_lstsize</a></td>
-    <td align = "center"><a href = "ft_lstiter.c">ft_lstiter</a></td>
+    <td align = "center"><a href = "ft_lstsize_bonus.c">ft_lstsize_bonus</a></td>
+    <td align = "center"><a href = "ft_lstiter_bonus.c">ft_lstiter_bonus</a></td>
   </tr>
   <tr>
-    <td align = "center"><a href = "ft_lstlast.c">ft_lstlast</a></td>
-    <td align = "center"><a href = "ft_lstmap.c">ft_lstmap</a></td>
+    <td align = "center"><a href = "ft_lstlast_bonus.c">ft_lstlast_bonus</a></td>
+    <td align = "center"><a href = "ft_lstmap_bonus.c">ft_lstmap_bonus</a></td>
   </tr>
   <tr>
-    <td align = "center" colspan = "2"><a href = "ft_lstadd_back.c">ft_lstadd_back</a></td>
+    <td align = "center" colspan = "2"><a href = "ft_lstadd_back.c">ft_lstadd_back_bonus</a></td>
   </tr>
 </table>
 
