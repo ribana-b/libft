@@ -104,7 +104,7 @@ My libft contains the following functions:
     <th colspan = "2">Bonus part</th>
   </tr>
   <tr>
-    <td align = "center"><a href = "ft_lstnew_bonus_bonus.c">ft_lstnew_bonus</a></td>
+    <td align = "center"><a href = "ft_lstnew_bonus.c">ft_lstnew_bonus</a></td>
     <td align = "center"><a href = "ft_lstdelone_bonus.c">ft_lstdelone_bonus</a></td>
   </tr>
   <tr>
