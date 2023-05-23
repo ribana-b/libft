@@ -120,7 +120,7 @@ My libft contains the following functions:
     <td align = "center"><a href = "ft_lstmap_bonus.c">ft_lstmap_bonus</a></td>
   </tr>
   <tr>
-    <td align = "center" colspan = "2"><a href = "ft_lstadd_back.c">ft_lstadd_back_bonus</a></td>
+    <td align = "center" colspan = "2"><a href = "ft_lstadd_back_bonus.c">ft_lstadd_back_bonus</a></td>
   </tr>
 </table>
 
