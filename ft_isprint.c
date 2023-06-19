@@ -6,9 +6,11 @@
 /*   By: ribana-b <ribana-b@42student.malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 18:14:07 by ribana-b          #+#    #+#             */
-/*   Updated: 2023/05/06 11:14:07 by ribana-b         ###   ########.fr       */
+/*   Updated: 2023/06/18 15:18:39 by ribana-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isprint(int c)
 {

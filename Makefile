@@ -1,14 +1,26 @@
 # Program name
+
 NAME = libft.a
+
 #Compilator
+
 COMPILATOR = gcc
+
 #Flags
+
 FLAGS = -Wall -Wextra -Werror -c
+
 #Prefix
+
 P = ft_
+
 #Subfix
+
 S1 = _fd
+S2 = _bonus
+
 #Files
+
 FILES = $(P)isalpha.c \
 		$(P)isdigit.c \
 		$(P)isalnum.c \
@@ -45,15 +57,15 @@ FILES2 = $(P)substr.c \
 		$(P)putendl$(S1).c \
 		$(P)putnbr$(S1).c \
 
-FILESBONUS = $(P)lstnew.c \
-			$(P)lstadd_front.c \
-			$(P)lstsize.c \
-			$(P)lstlast.c \
-			$(P)lstadd_back.c \
-			$(P)lstdelone.c \
-			$(P)lstclear.c \
-			$(P)lstiter.c \
-			$(P)lstmap.c \
+FILESBONUS = $(P)lstnew$(S2).c \
+			$(P)lstadd_front$(S2).c \
+			$(P)lstsize$(S2).c \
+			$(P)lstlast$(S2).c \
+			$(P)lstadd_back$(S2).c \
+			$(P)lstdelone$(S2).c \
+			$(P)lstclear$(S2).c \
+			$(P)lstiter$(S2).c \
+			$(P)lstmap$(S2).c \
 
 OBJ = $(FILES:.c=.o) $(FILES2:.c=.o)
 

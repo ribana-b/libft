@@ -6,9 +6,11 @@
 /*   By: ribana-b <ribana-b@42student.malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 12:55:57 by ribana-b          #+#    #+#             */
-/*   Updated: 2023/04/27 17:00:08 by ribana-b         ###   ########.fr       */
+/*   Updated: 2023/06/18 15:18:21 by ribana-b         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isascii(int c)
 {
