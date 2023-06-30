@@ -74,20 +74,16 @@ OBJBONUS = $(FILESBONUS:.c=.o)
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	@ar rcs $(NAME) $(OBJ)
+	ar rcs $(NAME) $(OBJ)
 
-$(OBJ): $(FILES) $(FILES2)
-	$(COMPILATOR) $(FLAGS) $(FILES) $(FILES2)
-
-bonus:
-	$(COMPILATOR) $(FLAGS) $(FILESBONUS)
-	@ar rcs $(NAME) $(OBJBONUS) 
+%.o: %.c
+	$(COMPILATOR) $(FLAGS) $< -o $@
 
 clean:
-	@/bin/rm -f $(OBJ) $(OBJBONUS)
+	rm -f $(OBJ) $(OBJBONUS)
 
 fclean: clean
-	@/bin/rm -f $(NAME)
+	rm -f $(NAME)
 
 re: fclean all
 
