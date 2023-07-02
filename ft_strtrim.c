@@ -43,7 +43,7 @@ char	*ft_strtrim(const char *s1, const char *set)
 	if (!s1 || !set)
 	{
 		return (0);
-	}	
+	}
 	if (!*s1)
 	{
 		return (ft_calloc(1, 1));
