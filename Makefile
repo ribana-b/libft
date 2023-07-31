@@ -79,9 +79,9 @@ $(NAME): $(OBJ)
 %.o: %.c
 	$(COMPILATOR) $(FLAGS) $< -o $@
 
-bonus:
-	$(COMPILATOR) $(FLAGS) $(FILESBONUS)
+bonus: $(OBJBONUS)
 	ar rcs $(NAME) $(OBJBONUS)
+
 
 clean:
 	rm -f $(OBJ) $(OBJBONUS)
