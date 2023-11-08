@@ -8,9 +8,13 @@
 
 This is my first project as a student in 42 Málaga. In this project I have to recreate some functions from the libc library. Besides some additional functions. I also did the bonus part to score 125 points!
 
-My libft contains the following functions:
+## Allowed Functions
 
-<!-- LIBC functions -->
+- [write()](https://linux.die.net/man/3/write)
+- [malloc()](https://linux.die.net/man/3/malloc)
+- [free()](https://linux.die.net/man/3/free)
+
+## Functions
 
 <table>
   <tr>
@@ -123,8 +127,6 @@ My libft contains the following functions:
     <td align = "center" colspan = "2"><a href = "ft_lstadd_back_bonus.c">ft_lstadd_back_bonus</a></td>
   </tr>
 </table>
-
-<!-- Checkout -->
 
 ## Progress
 
