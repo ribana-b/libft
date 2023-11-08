@@ -94,7 +94,7 @@ char	**strstore(char const *s, char c)
 		while (*s && *s != c)
 			s++;
 	}
-	*(storage + cont) = '\0';
+	*(storage + cont) = NULL;
 	return (storage);
 }
 
