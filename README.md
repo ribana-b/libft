@@ -1,133 +1,75 @@
-<!-- Title -->
-
 # libft
-
-<!-- Description -->
 
 ## Description
 
-This is my first project as a student in 42 Málaga. In this project I have to recreate some functions from the libc library. Besides some additional functions. I also did the bonus part to score 125 points!
+Libft is a library of functions that includes plenty of functions from [libc](https://www.gnu.org/software/libc/manual/html_node/Function-Index.html), and some additional useful functions.
+
+### Bonus
+
+I have to create a few more functions for [Linked List](https://www.geeksforgeeks.org/data-structures/linked-list/) manipulation.
 
 ## Allowed Functions
 
 - [write()](https://linux.die.net/man/3/write)
 - [malloc()](https://linux.die.net/man/3/malloc)
 - [free()](https://linux.die.net/man/3/free)
+- Any function I code from scratch.
 
-## Functions
+## Available Functions in Libft
 
-<table>
-  <tr>
-    <th colspan = "2"><strong>From libc</strong></th>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_isalpha.c">ft_isalpha</a></td>
-    <td align = "center"><a href = "ft_toupper.c">ft_toupper</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_isdigit.c">ft_isdigit</a></td>
-    <td align = "center"><a href = "ft_tolower.c">ft_tolower</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_isalnum.c">ft_isalnum</a></td>
-    <td align = "center"><a href = "ft_strchr.c">ft_strchr</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_isascii.c">ft_isascii</a></td>
-    <td align = "center"><a href = "ft_strrchr.c">ft_strrchr</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_isprint.c">ft_isprint</a></td>
-    <td align = "center"><a href = "ft_strncmp.c">ft_strncmp</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_strlen.c">ft_strlen</a></td>
-    <td align = "center"><a href = "ft_memchr.c">ft_memchr</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_memset.c">ft_memset</a></td>
-    <td align = "center"><a href = "ft_memcmp.c">ft_memcmp</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_bzero.c">ft_bzero</a></td>
-    <td align = "center"><a href = "ft_strnstr.c">ft_strnstr</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_memcpy.c">ft_memcpy</a></td>
-    <td align = "center"><a href = "ft_atoi.c">ft_atoi</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_memmove.c">ft_memmove</a></td>
-    <td align = "center"><a href = "ft_calloc.c">ft_calloc</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_strlcpy.c">ft_strlcpy</a></td>
-    <td align = "center"><a href = "ft_strdup.c">ft_strdup</a></td>
-  </tr>
-  <tr>
-    <td align = "center" colspan = "2"><a href = "ft_strclat.c">ft_strlcat</a></td>
-    
-  </tr>
-</table>
+### From Libc
 
-<!-- Additional functions -->
+- **ft_isalpha**
+- **ft_isdigit**
+- **ft_isalnum**
+- **ft_isalnum**
+- **ft_isascii**
+- **ft_isprint**
+- **ft_strlen**
+- **ft_memset**
+- **ft_bzero**
+- **ft_memcpy**
+- **ft_memmove**
+- **ft_strlcpy**
+- **ft_strlcat**
+- **ft_toupper**
+- **ft_tolower**
+- **ft_strchr**
+- **ft_strrchr**
+- **ft_strncmp**
+- **ft_memchr**
+- **ft_memcmp**
+- **ft_strnstr**
+- **ft_atoi**
+- **ft_calloc**
+- **ft_strdup**
 
-<table>
-  <tr>
-    <th colspan = "2">Additional functions</th>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_substr.c">ft_substr</a></td>
-    <td align = "center"><a href = "ft_striteri.c">ft_striteri</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_strjoin.c">ft_strjoin</a></td>
-    <td align = "center"><a href = "ft_putchar_fd.c">ft_putchar_fd</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_strtrim.c">ft_strtrim</a></td>
-    <td align = "center"><a href = "ft_putstr_fd.c">ft_putstr_fd</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_split.c">ft_split</a></td>
-    <td align = "center"><a href = "ft_putendl_fd.c">ft_putendl_fd</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_itoa.c">ft_itoa</a></td>
-    <td align = "center"><a href = "ft_putnbr_fd.c">ft_putnbr_fd</a></td>
-  </tr>
-  <tr>
-    <td align = "center" colspan = "2"><a href = "ft_strmapi.c">ft_strmapi</a></td>
-  </tr>
-</table>
+### Additional Useful Functions
 
-<!-- Bonus part -->
+- **ft_substr**
+- **ft_strjoin**
+- **ft_strtrim**
+- **ft_split**
+- **ft_itoa**
+- **ft_strmapi**
+- **ft_striteri**
+- **ft_putchar_fd**
+- **ft_putstr_fd**
+- **ft_putendl_fd**
+- **ft_putnbr_fd**
 
-<table>
-  <tr>
-    <th colspan = "2">Bonus part</th>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_lstnew_bonus.c">ft_lstnew_bonus</a></td>
-    <td align = "center"><a href = "ft_lstdelone_bonus.c">ft_lstdelone_bonus</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_lstadd_front_bonus.c">ft_lstadd_front_bonus</a></td>
-    <td align = "center"><a href = "ft_lstclear_bonus.c">ft_lstclear_bonus</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_lstsize_bonus.c">ft_lstsize_bonus</a></td>
-    <td align = "center"><a href = "ft_lstiter_bonus.c">ft_lstiter_bonus</a></td>
-  </tr>
-  <tr>
-    <td align = "center"><a href = "ft_lstlast_bonus.c">ft_lstlast_bonus</a></td>
-    <td align = "center"><a href = "ft_lstmap_bonus.c">ft_lstmap_bonus</a></td>
-  </tr>
-  <tr>
-    <td align = "center" colspan = "2"><a href = "ft_lstadd_back_bonus.c">ft_lstadd_back_bonus</a></td>
-  </tr>
-</table>
+### Bonus Part Functions
+
+- **ft_lstnew_bonus**
+- **ft_lstadd_front_bonus**
+- **ft_lstsize_bonus**
+- **ft_lstlast_bonus**
+- **ft_lstadd_back_bonus**
+- **ft_lstdelone_bonus**
+- **ft_lstclear_bonus**
+- **ft_lstiter_bonus**
+- **ft_lstmap_bonus**
 
 ## Progress
 
-If you want to check my progress as a student in 42 Málaga check out my <a href = "https://github.com/SrRecursive/42Malaga">main repository</a>!
+If you want to check my progress as a student in 42 Málaga check out my [main repository](https://github.com/SrRecursive/42Malaga)!
