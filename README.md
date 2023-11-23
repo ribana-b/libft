@@ -22,7 +22,6 @@ I have to create a few more functions for [Linked List](https://www.geeksforgeek
 - **ft_isalpha**
 - **ft_isdigit**
 - **ft_isalnum**
-- **ft_isalnum**
 - **ft_isascii**
 - **ft_isprint**
 - **ft_strlen**
