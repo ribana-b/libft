@@ -71,4 +71,4 @@ I have to create a few more functions for [Linked List](https://www.geeksforgeek
 
 ## Progress
 
-If you want to check my progress as a student in 42 Málaga check out my [main repository](https://github.com/SrRecursive/42Malaga)!
+If you want to check my progress as a student in 42 Málaga check out my [main repository](https://github.com/SrVariable/42Malaga)!
